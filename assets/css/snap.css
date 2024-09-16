@@ -1,0 +1,176 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  width: 1440px;
+}
+
+.header {
+  display: flex;
+  gap: 653px;
+  margin-inline: 34px;
+  padding-top: 25px;
+  margin-bottom: 67px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 45px;
+}
+
+.header-log {
+  display: flex;
+  gap: 63px;
+}
+
+.header-nav details > summary {
+  font-family: 'Epilogue';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #686868;
+  cursor: pointer;
+  marker: none;
+}
+
+
+.header-nav h2 {
+  font-family: 'Epilogue';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #686868;
+}
+
+.header-log {
+  display: flex;
+  gap: 63px;
+}
+
+.header-log h2 {
+  font-family: 'Epilogue';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #686868;
+}
+
+.header-log h3 {
+  font-family: 'Epilogue';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #686868;
+}
+
+.content {
+ margin-left: 165px;
+}
+
+
+.hero {
+  display: flex;
+  gap: -45px;
+}
+
+.hero img {
+  max-width: 480px;
+  max-height: 640px;
+  padding-right: 130px;
+  padding-top: 67px;
+}
+
+.text {
+  padding-top: 110px;
+  width: 540px;
+}
+
+.text h1 {
+  font-family: 'Epilogue';
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.1111111640930176px;
+  color: #151515;
+  margin-bottom: 48px;
+}
+
+.text p {
+  font-family: 'Epilogue';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #686868;
+  margin-bottom: 51px;
+}
+
+.buton {
+  width: 163px;
+  padding: 15px 28px 13px 31px;
+  border-radius: 12px;
+  background-color: #151515;
+}
+
+.text a {
+  font-family: 'Epilogue';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.25px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.logos {
+  padding-top: 108px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.logos img {
+  display: block;
+}
